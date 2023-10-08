@@ -1,6 +1,15 @@
+<<<<<<< HEAD
+numpy
+pandas
+pickle
+sklearn
+imblearn
+xgboost
+=======
 numpy
 pandas
 matplotlib
 seaborn
 pickle
 sklearn
+>>>>>>> 3dbeda87372424f43020621058c01cb85e45f089

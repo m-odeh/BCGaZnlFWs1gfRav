@@ -1,34 +1,34 @@
-# Background:
+# Background
 
-We are a small startup focusing mainly on providing machine learning solutions in the European banking market. We work on a variety of problems including fraud detection, sentiment classification and customer intention prediction and classification.
-We are interested in developing a robust machine learning system that leverages information coming from call center data.
-Ultimately, we are looking for ways to improve the success rate for calls made to customers for any product that our clients offer. Towards this goal we are working on designing an ever evolving machine learning product that offers high success outcomes while offering interpretability for our clients to make informed decisions.
+As a burgeoning startup specializing in machine learning solutions within the European banking market, our focus spans diverse challenges—from fraud detection and sentiment classification to predicting and understanding customer intentions. A central aspect of our mission is developing a robust machine learning system that harnesses insights derived from call center data. Our overarching goal is to significantly enhance the success rate of calls made to customers for various client offerings. In pursuit of this objective, we're actively engaged in designing an ever-evolving machine learning product that not only delivers high success outcomes but also ensures interpretability, empowering our clients to make well-informed decisions.
 
-# Data Description:
+# Data Description
 
-The data comes from direct marketing efforts of a European banking institution. The marketing campaign involves making a phone call to a customer, often multiple times to ensure a product subscription, in this case a term deposit. Term deposits are usually short-term deposits with maturities ranging from one month to a few years. The customer must understand when buying a term deposit that they can withdraw their funds only after the term ends. All customer information that might reveal personal information is removed due to privacy concerns.
+Our dataset originates from the direct marketing efforts of a European banking institution. The marketing campaign involves making phone calls to customers, often multiple times, to secure product subscriptions, particularly term deposits. Term deposits, characterized by short-term maturities ranging from one month to a few years, necessitate customers to comprehend that funds can only be withdrawn after the term concludes. For privacy concerns, all customer information revealing personal details has been meticulously removed.
 
--age : age of customer (numeric)
--job : type of job (categorical)
--marital : marital status (categorical)
--education (categorical)
--default: has credit in default? (binary)
--balance: average yearly balance, in euros (numeric)
--housing: has a housing loan? (binary)
--loan: has personal loan? (binary)
--contact: contact communication type (categorical)
--day: last contact day of the month (numeric)
--month: last contact month of year (categorical)
--duration: last contact duration, in seconds (numeric)
--campaign: number of contacts performed during this campaign and for this client (numeric, includes last contact)
--Output (desired target):
--y - has the client subscribed to a term deposit? (binary)
+- **age:** Age of the customer (numeric)
+- **job:** Type of job (categorical)
+- **marital:** Marital status (categorical)
+- **education:** Education level (categorical)
+- **default:** Has credit in default? (binary)
+- **balance:** Average yearly balance, in euros (numeric)
+- **housing:** Has a housing loan? (binary)
+- **loan:** Has a personal loan? (binary)
+- **contact:** Contact communication type (categorical)
+- **day:** Last contact day of the month (numeric)
+- **month:** Last contact month of the year (categorical)
+- **duration:** Last contact duration, in seconds (numeric)
+- **campaign:** Number of contacts performed during this campaign and for this client (numeric, includes the last contact)
+  
+**Output (desired target):**
+- **y:** Has the client subscribed to a term deposit? (binary)
 
 # Methodology
 
--Conducte exploratory data analysis, balanced out the data by using SMOTE technique and filled in missing values using the mode imputation method.
--Implemente various machine learning models (Support Victor Machine, Random Forest, KNN, XGBoost)
--Apply Grid-Search, with 
+- Conducted exploratory data analysis, balanced out the data using the SMOTE technique, and filled in missing values using the mode imputation method.
+- Implemented various machine learning models (Support Vector Machine, Random Forest, KNN, XGBoost).
+- Applied Grid-Search for hyperparameter tuning.
 
 # Summary
-XGBoost delivered outstanding performance with  96% accuracy, 0.96 f1-score
+
+XGBoost demonstrated exceptional performance with 96% accuracy and a 0.96 F1-score.

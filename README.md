@@ -25,9 +25,9 @@ Our dataset originates from the direct marketing efforts of a European banking i
 
 # Methodology
 
-- Conducted exploratory data analysis, balanced out the data using the SMOTE technique, and filled in missing values using the mode imputation method.
-- Implemented various machine learning models (Support Vector Machine, Random Forest, KNN, XGBoost).
-- Applied Grid-Search for hyperparameter tuning.
+- Conducte exploratory data analysis, balanced out the data using the SMOTE technique, and fille in missing values using the mode imputation method.
+- Implement various machine learning models (Support Vector Machine, Random Forest, KNN, XGBoost).
+- Apply Grid-Search for hyperparameter tuning.
 
 # Summary
 
